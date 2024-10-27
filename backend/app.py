@@ -15,7 +15,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 @app.route('/generate', methods=['POST'])
 def generate_lyrics():
     study_notes = request.json['study_notes']
-    prompt = f"Generate catchy pop-inspired song lyrics based on these study notes: {study_notes}"
+    prompt = f"Generate catchy song lyrics based on these study notes: {study_notes}"
 
     try:
         response = client.chat.completions.create(
