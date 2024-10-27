@@ -1,0 +1,39 @@
+.opening-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #eaede7;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .logo {
+    width: 175px;
+    margin-top: 0px;
+  }
+  
+  .title {
+    color: #FFD700;
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  
+  .start-button {
+    background-color: #f3e389;
+    border: none;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(97, 70, 70, 0.1);
+  }
+  
+  .start-button:hover {
+    background-color: #f7e062;
+    box-shadow: 0 6px 8px rgba(202, 179, 46, 0.2);
+    transform: translateY(-4px);
+  }
