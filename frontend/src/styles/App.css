@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #eaede7;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.app-title {
+  color: #FFD700;
+  font-size: 36px;
+  margin: 0;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.app-logo {
+  width: 100px;
+  height: auto;
+}
+
+.study-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.study-notes {
+  width: 80%;
+  height: 150px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.generate-button {
+  background-color: #f3e389;
+  color: rgb(70, 69, 69);
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.generate-button:hover {
+  background-color: #f7e062;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.lyrics-container {
+  margin-top: 30px;
+}
+
+.lyrics {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  white-space: pre-wrap;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 2px 4px rgba(110, 78, 57, 0.1);
+}
+
+.go-home-link {
+  color: #FFD700;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.go-home-link:hover {
+  color: #e6c300;
+  transform: translateY(-2px);
+}
