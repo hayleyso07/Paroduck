@@ -7,7 +7,7 @@ function App() {
   const [showOpeningPage, setShowOpeningPage] = useState(true);
   const [studyNotes, setStudyNotes] = useState('');
   const [lyrics, setLyrics] = useState('');
-  const [isGenerating, setIsGenerating] = useState(false); // New state variable
+  const [isGenerating, setIsGenerating] = useState(false); 
 
   const handleStartPress = () => {
     setShowOpeningPage(false);
@@ -54,7 +54,7 @@ function App() {
         <textarea
           value={studyNotes}
           onChange={(e) => setStudyNotes(e.target.value)}
-          placeholder="Enter your study notes here"
+          placeholder="Paste your study notes here"
           className="study-notes"
           readOnly={isGenerating} // Make text area read-only while generating
         />

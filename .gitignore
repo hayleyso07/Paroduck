@@ -142,3 +142,7 @@ venv/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
